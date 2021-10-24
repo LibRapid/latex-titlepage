@@ -1,0 +1,44 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[english]{babel}
+\usepackage[T1]{fontenc}
+\usepackage{datetime2}
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+
+\title{
+\textsc{LibRapid Computer Programming Library}\\[2.2cm]
+
+% Title and Subtitle
+
+{\LARGE \bfseries
+Title Page Template}\\
+{\Large\bfseries
+Great for papers written in \LaTeX}
+}
+
+% Authors
+
+\author{Toby Davis\\[0.2cm] Maximilian Schleicher}
+
+\makeatletter
+\newcommand{\monthyeardate}{%
+  \DTMenglishmonthname{\@dtm@month} \@dtm@year
+}
+\makeatother
+\date{\monthyeardate}
+
+%----------------------------------
+
+\begin{document}
+\maketitle
+\thispagestyle{empty}
+\vspace{0.5cm}
+\hrule
+\vspace{1cm}
+\begin{abstract} % 150-250 words
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam er+at, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.   
+
+Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+\end{abstract}
+\vfill
+\newpage
+\end{document}
